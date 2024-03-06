@@ -1,3 +1,13 @@
 body{
     font-family: 'Helvetica', sans-serif;
 }
+
+.main-picture{
+    height: auto;
+    width: 480px;
+}
+
+.paragraph-content{
+    margin-left: 2%;
+    text-indent: 25px;
+}
