@@ -1,13 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Helvetica', sans-serif;
 }
 
+.main{
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid rgb(215, 207, 207);
+    margin: auto;
+}
+
+.main-header{
+    text-align: center;
+}
+
 .main-picture{
+    display: block;
     height: auto;
-    width: 480px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .paragraph-content{
     margin-left: 2%;
     text-indent: 25px;
+}
+
+
+.subtopic-paragraph-content{
+    margin-left: 3%;
+    text-indent: 25px;
+}
+
+.subtopic-picture{
+    display: block;
+    max-width: 100%;
+    margin: auto;
 }
